@@ -1,0 +1,2 @@
+# us4jis_keyboard
+日本語環境のWindowsでUS配列のキーボードを快適に使うためのスクリプト
