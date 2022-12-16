@@ -1,5 +1,3 @@
-# $Ule4JisPath = "C:\Users\ykenta\ossapps\ULE4JIS\publish\Ule4Jis.exe"
-# $altimeahkPath = "C:\Users\ykenta\ossapps\alt-ime-ahk\alt-ime-ahk.exe"
 Set-Location -LiteralPath $PSScriptRoot
 
 . ".\env.ps1"
