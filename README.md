@@ -1,7 +1,7 @@
 # us4jis_keyboard
 
 日本語環境のWindowsでUS配列のキーボードを（個人的に）快適に使うためのスクリプトです。  
-US配列のキーボードをそのまま使うために[Ule4Jis](https://github.com/dezz/ULE4JIS) 、IMEのON/OFFを左右のAltキーで行うために[alt-ime-ahk](https://github.com/karakaram/alt-ime-ahk)を使っています。
+US配列のキーボードをOSの設定を変更せず、そのまま使うために[Ule4Jis](https://github.com/dezz/ULE4JIS) 、IMEのON/OFFを左右のAltキーで行うために[alt-ime-ahk](https://github.com/karakaram/alt-ime-ahk)を使っています。
 
 ## 動作環境
 
