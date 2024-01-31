@@ -14,6 +14,8 @@ US配列のキーボードをOSの設定を変更せず、そのまま使うた�
   - <https://learn.microsoft.com/ja-jp/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3>
 - Ule4Jis
   - <https://github.com/dezz/ULE4JIS>
+    - (起動時のダイアログ非表示版を kimi-soft さんが fork してます)
+    - <https://github.com/kimi-soft/forked-ule4jis>
 - alt-ime-ahk
   - <https://github.com/karakaram/alt-ime-ahk>
 
