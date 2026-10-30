@@ -31,6 +31,8 @@ US配列のキーボードをOSの設定を変更せず、そのまま使うた�
         ``` powershell
         $Ule4JisPath = "C:\ULE4JIS\publish\Ule4Jis.exe"
         $altimeahkPath = "C:\alt-ime-ahk\alt-ime-ahk.exe"
+        # alt-ime-ahk も一緒に起動・停止する場合は $true
+        $UseAltImeAhk = $false
         ```
 
     - us4jis.lnk
@@ -39,7 +41,18 @@ US配列のキーボードをOSの設定を変更せず、そのまま使うた�
         例
 
         ``` powershell
-        C:\Program Files\PowerShell\7\pwsh.exe -ExecutionPolicy RemoteSigned -File "C:\scripts\us4jis.ps1"
+        C:\Program Files\PowerShell\7\pwsh.exe -NoProfile -ExecutionPolicy RemoteSigned -File "C:\scripts\us4jis.ps1"
+        ```
+
+    - us4jis_re.lnk（任意）
+        - 起動中のツールを再起動するためのショートカット。引数に `-Restart` を付ける
+
+        例
+
+        ``` powershell
+        C:\Program Files\PowerShell\7\pwsh.exe -NoProfile -ExecutionPolicy RemoteSigned -File "C:\scripts\us4jis.ps1" -Restart
         ```
 
 2. PowerToys RUNからus4jis.lnkを実行
+    - 停止中なら起動、起動中なら停止します
+    - エラーが発生した場合は、内容を表示してEnterキーを押すまで待機します
